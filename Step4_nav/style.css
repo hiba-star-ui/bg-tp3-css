@@ -1,0 +1,65 @@
+/* Corps de la page */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Conteneur */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Barre de navigation */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px 0;
+  font-size: 13px;
+  background-color: #fff;
+}
+
+/* Logo Microsoft */
+.logo {
+  width: 110px;
+}
+
+/* Menus */
+.main-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+/* Menu principal */
+.main-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/* Menu de droite */
+.right-menu li {
+  margin-left: 10px;
+}
+
+/* Espacement des éléments du menu principal */
+.main-menu li {
+  margin-right: 10px;
+}
+
+/* Liens */
+.main-nav a {
+  color: #262626;
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+
+/* Survol des liens */
+.main-nav a:hover {
+  border-bottom: 2px solid #000;
+}
